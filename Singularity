@@ -31,8 +31,8 @@ From: centos:7
    cp openMalaria /usr/local/bin
 
 %runscript
-   exec /usr/local/bin/openMalaria "$@"
+   exec openMalaria "$@"
 
 %apprun openmalaria
-    openmalaria
+   openMalaria "@"
 
